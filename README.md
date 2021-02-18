@@ -166,7 +166,7 @@ publisher.publish(polygon_message);
 Once this is done, the message will get published and anyone listening on the topic `perception/boxes` will be able to recieve the message.
 
 
-1. Extend `perception.ai` with the publisher code above. The publisher should publish continuously, so the call to `publisher.publish(polygon_message)` should be inside the main loop.
+1. Extend `perception.py` with the publisher code above. The publisher should publish continuously, so the call to `publisher.publish(polygon_message)` should be inside the main loop.
 
 2. Run the code using the `roslaunch` command used earlier. 
 
